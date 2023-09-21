@@ -18,8 +18,8 @@ WORKDIR /publish
 COPY --from=build-env /publish .
 
 
-EXPOSE 5000
-ENV ASPNETCORE_URLS=http://+:5000
+EXPOSE 7208
+ENV ASPNETCORE_URLS=http://+:7208
 
 
 ENTRYPOINT ["dotnet", "AmonyCoffeeMIS.dll"]

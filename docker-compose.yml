@@ -2,7 +2,7 @@ version: '3.0'
 
 services: 
   coffeeapp:
-    image: oriankeith/coffeeapp
+    image: oriankeith/coffeebuild
     build:
       context: .
     depends_on:
